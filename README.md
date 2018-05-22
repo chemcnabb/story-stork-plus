@@ -1,6 +1,8 @@
 # Story Stork Plus
 An app for helping you build your story by providing you with story beats you can fill in. Based on the original [Story Stork](http://storystork.site/). **Work in Progress**.
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 ![Made With React](https://img.shields.io/badge/Made%20With-React-blue.svg?longCache=true&style=for-the-badge)
 
 ---
