@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import BeatButton from "./styled/BeatButton";
+import BeatList from './styled/BeatList';
+import MainContainer from './styled/MainContainer';
+import MainForm from './styled/MainForm';
+import ProgressBar from './styled/ProgressBar';
+import ProjectTitle from './styled/ProjectTitle';
+import SideMenu from './styled/SideMenu';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <MainContainer>
+        <SideMenu>
+          <ProjectTitle>Title</ProjectTitle>
+          <ProgressBar/>
+          <BeatList>
+            <BeatButton bg="#4B6CFC">TITLE</BeatButton>
+            <BeatButton bg="#FFBA0C">OPENING IMAGE</BeatButton>
+            <BeatButton bg="#8516FE">THEME</BeatButton>
+          </BeatList>
+        </SideMenu>
+        <MainForm/>
+      </MainContainer>
     );
   }
 }
