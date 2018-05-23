@@ -6,6 +6,11 @@ An app for helping you build your story by providing you with story beats you ca
 
 ![Made With React](https://img.shields.io/badge/Made%20With-React-blue.svg?longCache=true&style=for-the-badge)
 
+## Development
+
+1. Run `yarn` to install dependencies.
+2. Run `yarn start` to start the dev server.
+
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
